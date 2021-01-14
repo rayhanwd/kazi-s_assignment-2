@@ -1,0 +1,88 @@
+/* 
+Theme name: Kazi's Restaurant
+Version: 0.54
+Assignment: 2
+Design by Kazi Rayhan
+*/
+
+/* Google font Linked....... */
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Google font Linked....... */
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Google font Linked....... */
+
+/* Custom Css Setting Start*/
+
+h1,h2,h3{
+    font-family: 'Oswald', sans-serif;
+    color: #363958;
+}
+
+p,a,h4,h5,h6{
+    font-family: 'Poppins', sans-serif;
+}
+.text-color{
+    color: #09823f;
+}
+.custom-bg{
+    background-color: #eeeeee;
+}
+
+.custom-btn,
+.custom-btn-rounded,
+.Subscribe-btn:hover{
+    color: white;
+}
+
+.custom-btn-rounded:hover{
+    color: white;
+}
+.custom-btn-rounded{
+    background-color: #09823f;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.custom-btn{
+    background-color: #09823f;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+}
+/* Custom Css Setting End*/
+
+/* Nav bar icon customize Start */
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.55);
+    border:none;
+}
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+    border-color:2px solid #09823f;
+}
+/* Nav bar icon customize End */
+
+/* Subscription Area Customize Start */
+.form-control:focus {
+    box-shadow: none;
+    outline-color: #09823f;
+  }
+.Subscribe-btn {
+    background-color: #09823f;
+    padding: 7px 20px;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    right: 0;
+    margin-top: -19px;
+    margin-right: 12px;
+}
+/* Subscription Area Customize Start */
